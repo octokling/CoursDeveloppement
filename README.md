@@ -2,7 +2,7 @@
 Actuellement en BTS SIO, ce repository permet des déposer les exercices en Python que je fais.
 
 ## De plus 
-Pour ceux qui veulent aller plus loin dans le développement de Python, je met aussi de temps en temps des exemples, des exercice en plus ^^
+Pour ceux qui veulent aller plus loin dans le développement de Python ou d'autres, je met aussi de temps en temps des exemples, des exercice en plus ^^
 
 ## Une question ? 
 N'hésitez surtout pas !<br>
