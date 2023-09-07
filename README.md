@@ -5,8 +5,8 @@ Actuellement en BTS SIO, ce repository permet des déposer les exercices en Pyth
 Pour ceux qui veulent aller plus loin dans le développement de Python, je met aussi de temps en temps des exemples, des exercice en plus ^^
 
 ## Une question ? 
-N'hésitez surtout pas !
-Je suis disponible assez régulièrement sur GitHub donc vous pouvez moi la poser en cliquant [Ici](https://github.com/Octoklingjs/CoursPython/discussions)
+N'hésitez surtout pas !<br>
+Je suis disponible assez régulièrement sur GitHub donc vous pouvez moi la poser en cliquant [Ici](https://github.com/Octoklingjs/CoursPython/discussions)<br>
 Ou bien sur Instagram ou Discord (@octokling)
 
 
