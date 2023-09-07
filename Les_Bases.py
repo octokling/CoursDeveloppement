@@ -36,3 +36,6 @@ print(f"Tu as {variable1} ans")
 
 # bool (Boolean) = Un variable à deux statistique (Soit true vrai/1 ou false faux/0)
     # Exemple : if 1 + 1 == 3: (1 + 1 n'est pas égale à 1 alors c'est false)
+
+
+# Les conditions 
