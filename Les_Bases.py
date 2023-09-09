@@ -34,8 +34,23 @@ print(f"Tu as {variable1} ans")
 # float = Un nombre décimal 
     # Exemple : 23,56
 
-# bool (Boolean) = Un variable à deux statistique (Soit true vrai/1 ou false faux/0)
-    # Exemple : if 1 + 1 == 3: (1 + 1 n'est pas égale à 1 alors c'est false)
+# bool (Boolean) = Un variable à deux statistique (Soit True vrai/1 ou False faux/0)
+    # Exemple : 1 + 1 == 3 (1 + 1 n'est pas égale à 3 alors c'est False)
 
 
 # Les conditions 
+vrai = True #Ceci est une variable boolean de condition Vrai
+faux = False #Ceci est une variable boolean de condition Faux
+
+estVrai = 1 + 1 == 2 #Nous pouvons aussi déclarer une boolean en faisant une vérification. Par exemple, cette variable sera vrai car 1+1 est bien égale à 2 (les == veux dire est égale à)
+estFaux = 2 * 2 == 6 #Déclare aussi une boolean en faisant une vérification. Par exemple, cette variable sera fausse car 2x2 est pas égale à 6 
+
+if estVrai: #Ceci est une conditions, if = si, si l'information est vrai/True, alors il l'execute le code à l'intérieur de la condition
+    print("C'est vrai")
+else: #Ceci est un else/sinon. Si la condition d'avant était fausse, alors on éxecute cette partie de code. Il n'est pas obligatoire de le mettre après un if
+    print("C'est faux")
+
+if estFaux:
+    print("C'est vrai")
+else:
+    print("C'est faux")
