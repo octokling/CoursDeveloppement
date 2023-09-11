@@ -6,9 +6,9 @@ try: #Essaie (En gros il va essayer de faire le code, et dès qu'une erreur se p
     prix = 0.0 #Déclare prix
     if poidsLettre < 20 : #Si poidsLettre est plus petit que 20
         prix = 0.53 #Redéfinir la valeur de prix
-    elif poidsLettre >= 20 and poidsLettre <= 50: #Si poidsLettre entre 20 et 50
+    elif poidsLettre >= 20 and poidsLettre <= 50: #Sinon si poidsLettre entre 20 et 50
         prix = 0.70 #Redéfinir la valeur de prix
-    elif poidsLettre > 50: #Si poidsLettre est plus grands que 50
+    elif poidsLettre > 50: #Sinon si poidsLettre est plus grands que 50
         prix = 1.10 #Redéfinir la valeur de prix
 
     print(f"Le prix de lettre est de {prix:0.2f}€")
