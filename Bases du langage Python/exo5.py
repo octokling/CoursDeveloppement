@@ -16,6 +16,7 @@ anneeActuelle2 = datetime.date.today().year #Nous récupérons avec la librairie
 
 anneeAge2 = input("Qu'elle est votre année de naissance")
 
-print("Vous avez", anneeActuelle2 - anneeAge2,"ans") #Et nous printons ^^
+print("Vous avez", anneeActuelle2 - int(anneeAge),"ans") #Et nous printons ^^
 
 #And that it !!!
+
