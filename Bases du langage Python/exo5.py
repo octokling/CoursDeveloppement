@@ -28,11 +28,10 @@ import datetime #On importe un module qui gère le temps
 
 anneeActuelle = datetime.date.today().year #Nous récupérons avec la librairie datetime, l'année d'aujourd'hui
 
-anneeAge = input("Qu'elle est votre année de naissance")
+anneeAge = int(input("Qu'elle est votre année de naissance"))
 
-age = anneeActuelle - int(anneeAge)
-
-if age >= 0 and age <= 120:
+if anneeAge >= (anneeActuelle-120) and anneeAge <= anneeActuelle :
+    age = anneeActuelle - anneeAge
     print("Vous avez", age ,"ans") #Et nous printons encore
 else:
     print("T'es con oùùùùùùù ?") #J'insulte l'utilisateur poliment lorsqu'il me dit que son age est moins de 0 ans ou plus de 120 ans
