@@ -1,7 +1,13 @@
+#Écrire un algorithme permettant d'afficher la tarification d'une lettre à partir de son poids saisi par l'utilisateur.
+#1. Poids < 20g : 0,53 €
+#2. Poids ≥ 20g et ≤ 50g : 0,70€
+#3. Poids > 50g : 1,10€
+
+
 try: #Essaie (En gros il va essayer de faire le code, et dès qu'une erreur se produit, il peut la capturer)
     poidsLettre = float(input("Saisissez votre poids de votre lettre en Gramme")) #Converti en float input
 
-    if poidsLettre <= 0: raise ValueError() #Je génère une erreur de type ValueError
+    if poidsLettre <= 0: raise ValueError() #Je génère une erreur de type ValueError lorsque la lettre fait un poids de 0 ou moins
 
     prix = 0.0 #Déclare prix
     if poidsLettre < 20 : #Si poidsLettre est plus petit que 20
