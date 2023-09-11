@@ -12,11 +12,27 @@ print("Vous avez", anneeActuelle - int(anneeAge),"ans") #Nous faisons un print a
 
 import datetime #On importe un module qui gère le temps
 
-anneeActuelle2 = datetime.date.today().year #Nous récupérons avec la librairie datetime, l'année d'aujourd'hui
+anneeActuelle = datetime.date.today().year #Nous récupérons avec la librairie datetime, l'année d'aujourd'hui
 
-anneeAge2 = input("Qu'elle est votre année de naissance")
+anneeAge = input("Qu'elle est votre année de naissance")
 
-print("Vous avez", anneeActuelle2 - int(anneeAge),"ans") #Et nous printons ^^
+print("Vous avez", anneeActuelle - int(anneeAge),"ans") #Et nous printons ^^
 
 #And that it !!!
 
+
+#Exo bonux
+#Faire le calcul UNIQUEMENT si l'âge est entre 0 et 120
+
+import datetime #On importe un module qui gère le temps
+
+anneeActuelle = datetime.date.today().year #Nous récupérons avec la librairie datetime, l'année d'aujourd'hui
+
+anneeAge = input("Qu'elle est votre année de naissance")
+
+age = anneeActuelle - int(anneeAge)
+
+if age >= 0 and age <= 120:
+    print("Vous avez", age ,"ans") #Et nous printons encore
+else:
+    print("T'es con oùùùùùùù ?") #J'insulte l'utilisateur poliment lorsqu'il me dit que son age est moins de 0 ans ou plus de 120 ans
