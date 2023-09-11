@@ -31,7 +31,7 @@ def aff_alpha(): #On défini une seconde fois une fonction, tu connais ;)
         #range(15) -> ce que l'on obtiens : 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14, avec le zéro, il aura écrit 15 chiffre.
         #Donc pour 122 - 97 = 25, range(ord('a'), ord('z')) -> ce que l'on obtiens : a b c d e f g h i j k l m n o p q r s t u v w x y. soit 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
         
-        #Je ne sais pas si c'est clair mais vas-y si vous avez r compris ça sera assez important car c'est assez récurrent dans la programmation, demandez moi !!!!
+        #Je ne sais pas si c'est clair mais vas-y si vous avez r compris adressez-vous à moi car c'est assez important et récurrent dans la programmation, demandez moi !!!!
 
         print(chr(lettre), end='') # Et on affiche le résultat avec end un anti saut de ligne. chr() permet de convertir une valeur int en un caractère ASCII.
         #Par exemple chr(97), cela me donne a. chr(110), cela me donne n
