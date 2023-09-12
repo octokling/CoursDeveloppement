@@ -70,9 +70,9 @@ def nullGame(): #Fonction pour savoir si le jeu est nulle
 
 
 while(True): #Boucle infini jusqu'à un break
-    os.system("cls") #Efface l'historique d'écriture dans un CMD
+    os.system("cls") #Efface l'historique d'écriture dans le CMD
     correctlySelectPlacement = False #Boolean value pour savoir si le joueur à correctement sélectionné un emplacement
-    print(f" {liste[0]}|{liste[1]}|{liste[2]}\n-------\n {liste[3]}|{liste[4]}|{liste[5]}\n-------\n {liste[6]}|{liste[7]}|{liste[8]}")#Ecriture de la grille
+    print(f"  1   2   3\nA {liste[0]} | {liste[1]} | {liste[2]} \n  -----------\nB {liste[3]} | {liste[4]} | {liste[5]} \n  -----------\nC {liste[6]} | {liste[7]} | {liste[8]}")#Ecriture de la grille
     
     if isPlayerOneWin(): #Si la fonction retourne vrai
         print("Joueux X à gagné !")
