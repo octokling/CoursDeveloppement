@@ -21,43 +21,27 @@ def isNotAlreadyPlayed(TableId): #Ceci est une fonction, ici on veux importer un
     else:
         return False# Retourne faux
             
-def isPlayerOneWin(): #Une fonction pour savoir si player 1 à gagné
+def isWin(playerTurn): #Une fonction pour savoir si player 1 à gagné
     #Toutes les combinaisons possible pour gagné, je vous laisse déchiffré :)
-    if liste[0] == "X" and liste[1] == "X" and liste[2] == "X":
+    pion = "X"
+    if playerTurn == False:
+        pion = "O"
+        
+    if liste[0] == pion and liste[1] == pion and liste[2] == pion:
         return True
-    elif liste[3] == "X" and liste[4] == "X" and liste[5] == "X":
+    elif liste[3] == pion and liste[4] == pion and liste[5] == pion:
         return True
-    elif liste[6] == "X" and liste[7] == "X" and liste[8] == "X":
+    elif liste[6] == pion and liste[7] == pion and liste[8] == pion:
         return True
-    elif liste[0] == "X" and liste[3] == "X" and liste[6] == "X":
+    elif liste[0] == pion and liste[3] == pion and liste[6] == pion:
         return True
-    elif liste[1] == "X" and liste[4] == "X" and liste[7] == "X":
+    elif liste[1] == pion and liste[4] == pion and liste[7] == pion:
         return True
-    elif liste[2] == "X" and liste[5] == "X" and liste[8] == "X":
+    elif liste[2] == pion and liste[5] == pion and liste[8] == pion:
         return True
-    elif liste[0] == "X" and liste[4] == "X" and liste[8] == "X":
+    elif liste[0] == pion and liste[4] == pion and liste[8] == pion:
         return True
-    elif liste[2] == "X" and liste[4] == "X" and liste[6] == "X":
-        return True
-    else: 
-        return False
-    
-def isPlayerTwoWin():#Pareil mais pour le joueur 2
-    if liste[0] == "O" and liste[1] == "O" and liste[2] == "O":
-        return True
-    elif liste[3] == "O" and liste[4] == "O" and liste[5] == "O":
-        return True
-    elif liste[6] == "O" and liste[7] == "O" and liste[8] == "O":
-        return True
-    elif liste[0] == "O" and liste[3] == "O" and liste[6] == "O":
-        return True
-    elif liste[1] == "O" and liste[4] == "O" and liste[7] == "O":
-        return True
-    elif liste[2] == "O" and liste[5] == "O" and liste[8] == "O":
-        return True
-    elif liste[0] == "O" and liste[4] == "O" and liste[8] == "O":
-        return True
-    elif liste[2] == "O" and liste[4] == "O" and liste[6] == "O":
+    elif liste[2] == pion and liste[4] == pion and liste[6] == pion:
         return True
     else: 
         return False
@@ -74,11 +58,11 @@ while(True): #Boucle infini jusqu'à un break
     correctlySelectPlacement = False #Boolean value pour savoir si le joueur à correctement sélectionné un emplacement
     print(f"  1   2   3\nA {liste[0]} | {liste[1]} | {liste[2]} \n  -----------\nB {liste[3]} | {liste[4]} | {liste[5]} \n  -----------\nC {liste[6]} | {liste[7]} | {liste[8]}")#Ecriture de la grille
     
-    if isPlayerOneWin(): #Si la fonction retourne vrai
-        print("Joueux X à gagné !")
-        break
-    elif isPlayerTwoWin(): #Si la fonction retourne vrai
-        print("Joueur O à gagné !")
+    if isWin(not isPlayerOneTurn): #Si la fonction retourne vrai
+        if not isPlayerOneTurn:
+            print("Joueur X à gagné !")
+        else:
+            print("Joueur O à gagné !")
         break
     elif nullGame(): #Ta compris j'espère ?...
         print("Partie nulle !")
