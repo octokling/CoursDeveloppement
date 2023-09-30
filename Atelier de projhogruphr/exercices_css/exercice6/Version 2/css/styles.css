@@ -1,10 +1,10 @@
 html, body{
-    height: 99%;
+    height: 85%;
 }
 
 body{
-    background-color: black;
-    color: white;
+    background-color: blueviolet;
+    color: green;
 }
 
 div.Gris{
@@ -18,7 +18,7 @@ div.conteneur {
     margin-top: 5%;
     margin-left: 3%;
     height: 70%;
-    overflow: auto; /* Cela permettra au conteneur de contenir les éléments flottants */
+    overflow: auto;
 }
 
 div#navigation{
