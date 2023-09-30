@@ -48,7 +48,7 @@ print()#Fait un saut de ligne
 
 #🅒🅞🅡🅡🅔🅒🅣🅘🅞🅝 🅛🅘🅖🅝🅔 ❶⓿⓿
 
-#Ensuite je ne sais pas ce qu'est le challange C1 et en vrai OSEF non ?
+#Vous pouvez trouver l'exercices C1 dans le dossier Challenge
 
 
 
