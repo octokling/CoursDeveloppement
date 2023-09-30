@@ -1,0 +1,82 @@
+html, body{
+    height: 99%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+div.Gris{
+    position: relative;
+    background-color: gray;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+div.conteneur {
+    margin-top: 5%;
+    margin-left: 3%;
+    height: 70%;
+    overflow: auto; /* Cela permettra au conteneur de contenir les éléments flottants */
+}
+
+div#navigation{
+    float: left;
+    width: 20%;
+    padding-right: 20px;
+}
+
+div#article{
+    float: left;
+    margin-left: 5%;
+    width: 60%;
+    height: 99%;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+h1#TitleMenu{
+    position: relative;
+}
+
+div.WhiteBorder{
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 5px 5px 20px white;
+    color: gray;
+}
+
+div.WhiteBorder#footer{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    text-align: center;
+}
+
+a.menu, li.menu{
+    color: lightgray;
+}
+
+a#espacement{
+    margin-left: 25px;
+}
+
+a:hover{
+    color: red;
+}
+
+p#alinea{
+    text-indent: 50px;
+}
+
+h2#souligne{
+    text-decoration: underline;
+}
+
+div#article h1{
+     border-bottom: 2px solid #000;
+}

@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+div.espacementLeft{
+    margin-left: 70px;
+}
+
+div.espacementLeftTop{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+h1#TitleMenu{
+    position: relative;
+}
+
+div.WhiteBorder{
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 5px 5px 20px white;
+    color: gray;
+}
+
+div.WhiteBorder#footer{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+
+a, li{
+    color: lightgray;
+}
+
+a#espacement{
+    margin-left: 25px;
+}
+
+a:hover{
+    color: red;
+}
+
+p#alinea{
+    text-indent: 50px;
+}
+
+h2{
+    text-decoration: underline;
+}

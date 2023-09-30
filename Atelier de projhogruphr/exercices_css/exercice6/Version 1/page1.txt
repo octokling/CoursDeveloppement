@@ -1,0 +1,21 @@
+﻿Exemple de document 
+I) Des paragraphes vides de sens ?
+Ceci est un paragraphe qui ne contient aucune information utile. Il ne sert
+que d'exemple et chaque mot qu'il comporte n'a pour objectif que de le rallonger.
+On se demande d'ailleurs pourquoi certains lisent jusqu'ici ...
+Ceci est un autre paragraphe qui tout comme le premier ne contient aucune 
+information utile. Ne le lisez donc pas ...
+II) D'autres types de contenu
+II.1) Listes à puces
+Ceci est une liste "à puces"
+Autrement dit "non ordonnée"
+(ul signifie unordered list).
+Une liste peut contenir une sous-liste,
+comme c'est le cas ici.
+II.2) Listes numérotée
+Ceci est une liste "numérotée"
+Autrement dit "ordonnée"
+(ol signifie ordered list).
+retour au menu
+Nom du site
+webmaster@monsite.fr

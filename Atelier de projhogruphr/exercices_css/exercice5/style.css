@@ -1,0 +1,28 @@
+body{
+	color:grey;
+	font-size:25px;
+}
+p{
+	color:blue;
+	font-size:30px;
+}
+.en_orange{
+	color:orange;
+	font-weight: bold;
+}
+
+*[title]{
+	border: 2px solid red;
+}
+
+h2 + p {
+	text-shadow: 1px 1px 5px black;
+}
+
+li span{
+	font-style: italic;
+}
+
+#monId{
+	color: red;
+}
