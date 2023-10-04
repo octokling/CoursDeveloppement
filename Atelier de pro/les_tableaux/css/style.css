@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 td, th{
     border: 1px solid black;
     padding-right: 40px;
@@ -5,4 +9,13 @@ td, th{
 
 table {
     border-collapse: collapse;
+}
+
+thead{
+    font-weight: bold;
+}
+
+td#droite{
+    padding-right: 0px;
+    text-align: right;
 }
