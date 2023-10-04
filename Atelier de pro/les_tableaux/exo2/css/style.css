@@ -2,20 +2,36 @@ body{
     font-family: sans-serif;
 }
 
+tHead{
+    background-color: #CC0000;
+    color: white;
+    height: 45px;
+}
+
+tfoot{
+    background-color: yellow;
+    padding: 10px 5px 10px 5px;
+    height: 45px;
+}
+
 td, th{
     border: 1px solid black;
-    padding-right: 40px;
+}
+
+tBody tr td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
 }
 
 table {
-    border-collapse: collapse;
+    text-align: center
 }
 
-thead{
-    font-weight: bold;
+#lightgreen{
+    background-color: lightgreen;
 }
 
-td#droite{
-    padding-right: 0px;
-    text-align: right;
+#green{
+    background-color: #48AA00;
 }
