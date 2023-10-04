@@ -1,33 +1,41 @@
+/*Changement de police pour toute la page*/
 body{
     font-family: sans-serif;
 }
 
+/*Pour le haut du tableau*/
 tHead{
     background-color: #CC0000;
     color: white;
     height: 45px;
 }
 
+/*Pour le bas du tableau*/
 tfoot{
     background-color: yellow;
     padding: 10px 5px 10px 5px;
     height: 45px;
 }
 
+/* Les bords noir de 1 pixel*/
 td, th{
     border: 1px solid black;
 }
 
+/* selectionne td qui est dans tbody et tr*/
 tBody tr td{
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100px;
 }
 
+*
+/* Permet de tout recentrer*/
 table {
     text-align: center
 }
 
+/* Gestion des couleurs*/
 #lightgreen{
     background-color: lightgreen;
 }
