@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Main';
+  src: url("../font/BlitzBold.otf");
+}
+
+@font-face{
+    font-family: "Bold";
+    src: url("../font/DFP_GBZY9.otf") format("truetype");
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+    font-family: 'Main';
+}
+
+header.Menu{
+    display: flex;
+    background: linear-gradient(to right, #0000A0, black);
+    
+    padding: 10px;
+    height: 50px;
+    border-radius: 0px 0px 25px 25px;
+    
+    align-items: center;
+    text-align: right;
+    
+    color: white;
+}
+
+header.Menu nav{
+    position: fixed;
+    right: 20px;
+}
+
+header.Menu h2{
+    position: fixed;
+    left: 80px
+}
+
+header.Menu nav a{
+    margin: 10px
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.25s
+}
+
+a#selected{
+    color: #1500ff;
+}
+
+header.Menu nav a:hover{
+    color: #AAAAAA;
+    font-size: 20px;
+}
+
+div.Article{
+    background: linear-gradient(210deg, #0000A0, #111 120%);
+    border-radius: 25px;
+    margin: 50px;
+    padding: 20px;
+    transition: 0.2s;
+    color: white;
+}
+
+div.Article:hover{
+    background: linear-gradient(210deg, #0000A0, #222 120%);
+    border-radius: 25px;
+    margin: 45px;
+}
+
+div.Article #title{
+    margin: 0px;
+}
+div.Article img{
+display: block;
+    margin: 0 auto;
+}
