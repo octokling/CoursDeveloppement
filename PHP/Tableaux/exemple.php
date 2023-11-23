@@ -4,7 +4,7 @@
 ?>
 
 <?php
-    $age = array("Denis"=>"35", "Pierre"=>"37", "Quelquun"=>"24", "Logan"=>"18", "Kevin"=>"19");
+    $age = array("Victor"=>"35", "Dorian"=>"37", "Hugo"=>"24", "Logan"=>"18", "Kevin"=>"19");
     var_dump($age);
 ?>
 
@@ -46,9 +46,9 @@
 ?>
 
 <?php
-    $tab1["Astrick"] = 25;
+    $tab1["Astghik"] = 25;
     $tab1["Erwan"] = 25;
-    $tab1["Pierrette"] = 25;
+    $tab1["Corentin"] = 25;
 
     $tab2["Oasis"] = 1;
     $tab2["Tropico"] = 2;
