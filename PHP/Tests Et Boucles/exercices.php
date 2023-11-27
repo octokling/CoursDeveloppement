@@ -52,6 +52,7 @@
     else{
         echo "Les goûts et mes couleurs, ça ne se discute pas\n";
     }
+    echo "\n";
 ?>
 
 2)
@@ -85,12 +86,55 @@
         echo "$d";
         $d = $d * 100;
     }
+    echo "\n";
 ?>
 
 3)
+<?php
+    $e = 0;
+    $f = 20;
+    $g = 100;
+    $h = 1;
+    do {
+        echo "$a";
+        $a++;
+    }
+    while($a <= 10);
+
+    echo "\n";
+    
+    do{
+        echo "$b";
+        $b--;
+    }
+    while ($b > 6);
+
+    echo "\n";
+
+    do{
+        echo "$c";
+        $c = $c / 10;
+    }
+    while ($c > 20);
+
+    echo "\n";
+
+    do{
+        echo "$d";
+        $d = $d * 100;
+    }
+    while($d < 1000);
+    echo "\n";
+?>
+
+4)
 <?php
     for($i = 1; $i <=10; $i++){
         echo "Résultat: " . $i * 10 . "\n";
     }
     
+    for($i = 1; $i <=10; $i++){
+        echo "3 x ". $i . " = " . $i * 3 . "\n";
+    }
+    echo "\n";
 ?>
