@@ -1,3 +1,7 @@
+<!ELEMENT basefilms (artistes+, films+)>
+<!ELEMENT artistes (nom, categorie)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT categorie (#PCDATA)>
 <!ELEMENT films (film+)>
 <!ELEMENT film (titre, genre, annee, duree, acteurs, realisateur)>
 <!ELEMENT titre (#PCDATA)>

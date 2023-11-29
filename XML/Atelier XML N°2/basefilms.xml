@@ -1,4 +1,4 @@
-<!DOCTYPE films SYSTEM "films.dtd" >
+<!DOCTYPE films SYSTEM "basefilms.dtd" >
 <basefilms>
 	<artistes>
 		<nom>Tim Burton</nom>
