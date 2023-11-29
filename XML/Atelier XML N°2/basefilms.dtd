@@ -11,3 +11,5 @@
 <!ELEMENT acteurs (personne+)>
 <!ELEMENT personne (#PCDATA)>
 <!ELEMENT realisateur (#PCDATA)>
+
+<!ATTLIST artiste codartiste ID #REQUIRED>

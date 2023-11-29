@@ -1,14 +1,14 @@
 <!DOCTYPE films SYSTEM "basefilms.dtd" >
 <basefilms>
-	<artistes>
+	<artistes codartiste = "A">
 		<nom>Tim Burton</nom>
 		<categorie>Réalisateur</categorie>
 	</artistes>
-	<artistes>
+	<artistes codartiste = "B">
 		<nom>Johnny Depp</nom>
 		<categorie>Acteur</categorie>
 	</artistes>
-	<artistes>
+	<artistes codartiste = "C">
 		<nom>Freddie Highmore</nom>
 		<categorie>Acteur</categorie>
 	</artistes>
@@ -50,4 +50,4 @@
 		 	<realisateur>Jim Abrahams</realisateur>
 		</film>
 	</films>
-<basefilms>
+</basefilms>
