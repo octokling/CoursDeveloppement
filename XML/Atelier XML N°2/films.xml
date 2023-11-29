@@ -1,0 +1,12 @@
+<films>
+	<film>
+		<titre>Le seigneur des anneaux</titre>
+	 	<genre>Aventure</genre>
+	 	<annee>2001</annee>
+	 	<duree>180</duree>
+	 	<acteurs>
+	 		<personne>lan McKellen</personne>
+	 		<personne>Liv Tyler</personne>
+	 	</acteurs>
+	</film>
+</films>
