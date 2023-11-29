@@ -1,3 +1,4 @@
+<!DOCTYPE films SYSTEM "films.dtd" >
 <films>
 	<film>
 		<titre>Le seigneur des anneaux</titre>
@@ -8,5 +9,30 @@
 	 		<personne>lan McKellen</personne>
 	 		<personne>Liv Tyler</personne>
 	 	</acteurs>
+	 	<realisateur>Peter Jackson</realisateur>
+	</film>
+	<film>
+		<titre>Maman, j'ai raté l'avion !</titre>
+	 	<genre>Comédie</genre>
+	 	<annee>1990</annee>
+	 	<duree>103</duree>
+	 	<acteurs>
+	 		<personne>Macaulay Culkin</personne>
+	 		<personne>Joe Pesci</personne>
+	 		<personne>Daniel Stern</personne>
+	 	</acteurs>
+	 	<realisateur>Chris Columbus</realisateur>
+	</film>
+	<film>
+		<titre>Hot Shots!</titre>
+	 	<genre>Comédie</genre>
+	 	<annee>1991</annee>
+	 	<duree>84</duree>
+	 	<acteurs>
+	 		<personne>Charlie Sheen</personne>
+	 		<personne>Valeria Golino</personne>
+	 		<personne>Lloyd Bridges</personne>
+	 	</acteurs>
+	 	<realisateur>Jim Abrahams</realisateur>
 	</film>
 </films>
