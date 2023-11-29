@@ -1,53 +1,82 @@
-<!DOCTYPE films SYSTEM "basefilms.dtd" >
+<!DOCTYPE basefilms SYSTEM "basefilms.dtd" >
 <basefilms>
-	<artistes codartiste = "A">
-		<nom>Tim Burton</nom>
-		<categorie>Réalisateur</categorie>
-	</artistes>
-	<artistes codartiste = "B">
-		<nom>Johnny Depp</nom>
-		<categorie>Acteur</categorie>
-	</artistes>
-	<artistes codartiste = "C">
-		<nom>Freddie Highmore</nom>
-		<categorie>Acteur</categorie>
-	</artistes>
+
+	<artistes>
+		<artiste codartiste="A">
+	      	<nom>Tim Burton</nom>
+	    	<categorie>Réalisateur</categorie>
+	   	</artiste>
 	
-	<films>
-		<film>
-			<titre>Le seigneur des anneaux</titre>
-		 	<genre>Aventure</genre>
-		 	<annee>2001</annee>
-		 	<duree>180</duree>
-		 	<acteurs>
-		 		<personne>lan McKellen</personne>
-		 		<personne>Liv Tyler</personne>
-		 	</acteurs>
-		 	<realisateur>Peter Jackson</realisateur>
-		</film>
-		<film>
-			<titre>Maman, j'ai raté l'avion !</titre>
-		 	<genre>Comédie</genre>
-		 	<annee>1990</annee>
-		 	<duree>103</duree>
-		 	<acteurs>
-		 		<personne>Macaulay Culkin</personne>
-		 		<personne>Joe Pesci</personne>
-		 		<personne>Daniel Stern</personne>
-		 	</acteurs>
-		 	<realisateur>Chris Columbus</realisateur>
-		</film>
-		<film>
-			<titre>Hot Shots!</titre>
-		 	<genre>Comédie</genre>
-		 	<annee>1991</annee>
-		 	<duree>84</duree>
-		 	<acteurs>
-		 		<personne>Charlie Sheen</personne>
-		 		<personne>Valeria Golino</personne>
-		 		<personne>Lloyd Bridges</personne>
-		 	</acteurs>
-		 	<realisateur>Jim Abrahams</realisateur>
-		</film>
-	</films>
+	   	<artiste codartiste="B">
+	   	   <nom>Johnny Depp</nom>
+	   	   <categorie>Acteur</categorie>
+	   	</artiste>
+	
+	   	<artiste codartiste="C">
+	      	<nom>Freddie Highmore</nom>
+	      	<categorie>Acteur</categorie>
+	   	</artiste>
+	</artistes>
+
+   <films>
+      <film>
+         <titre>Le seigneur des anneaux</titre>
+
+         <genre>Aventure</genre>
+
+         <annee>2001</annee>
+
+         <duree>180</duree>
+
+         <acteurs>
+            <personne>lan McKellen</personne>
+
+            <personne>Liv Tyler</personne>
+         </acteurs>
+
+         <realisateur>Peter Jackson</realisateur>
+      </film>
+
+      <film>
+         <titre>Maman, j'ai raté l'avion !</titre>
+
+         <genre>Comédie</genre>
+
+         <annee>1990</annee>
+
+         <duree>103</duree>
+
+         <acteurs>
+            <personne>Macaulay Culkin</personne>
+
+            <personne>Joe Pesci</personne>
+
+            <personne>Daniel Stern</personne>
+         </acteurs>
+
+         <realisateur>Chris Columbus</realisateur>
+      </film>
+
+      <film>
+         <titre>Hot Shots!</titre>
+
+         <genre>Comédie</genre>
+
+         <annee>1991</annee>
+
+         <duree>84</duree>
+
+         <acteurs>
+            <personne>Charlie Sheen</personne>
+
+            <personne>Valeria Golino</personne>
+
+            <personne>Lloyd Bridges</personne>
+         </acteurs>
+
+         <realisateur>Jim Abrahams</realisateur>
+      </film>
+   </films>
+   
 </basefilms>
+

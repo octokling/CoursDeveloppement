@@ -1,7 +1,9 @@
-<!ELEMENT basefilms (artistes+, films+)>
-<!ELEMENT artistes (nom, categorie)>
+<!ELEMENT basefilms (artistes, films)>
+<!ELEMENT artistes (artiste+)>
+<!ELEMENT artiste (nom, categorie)>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT categorie (#PCDATA)>
+
 <!ELEMENT films (film+)>
 <!ELEMENT film (titre, genre, annee, duree, acteurs, realisateur)>
 <!ELEMENT titre (#PCDATA)>
@@ -13,3 +15,4 @@
 <!ELEMENT realisateur (#PCDATA)>
 
 <!ATTLIST artiste codartiste ID #REQUIRED>
+<!ATTLIST realisateur codartiste IDREF #REQUIRED>

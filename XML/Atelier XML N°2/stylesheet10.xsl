@@ -4,7 +4,7 @@
 	
 	<xsl:template match="films">	
 		<html>
-			<title></title>
+			<title>Coucou</title>
 			<body>
 				<xsl:for-each select="film">
 					Titre du film : <xsl:value-of select = "titre"/><br/>
