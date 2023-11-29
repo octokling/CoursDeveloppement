@@ -3,18 +3,18 @@
 
 	<artistes>
 		<artiste codartiste="A">
-	      	<nom>Tim Burton</nom>
+	      	<nom>Peter Jackson</nom>
 	    	<categorie>Réalisateur</categorie>
 	   	</artiste>
 	
 	   	<artiste codartiste="B">
-	   	   <nom>Johnny Depp</nom>
-	   	   <categorie>Acteur</categorie>
+	   	   <nom>Chris Columbus</nom>
+	   	   <categorie>Réalisateur</categorie>
 	   	</artiste>
 	
 	   	<artiste codartiste="C">
-	      	<nom>Freddie Highmore</nom>
-	      	<categorie>Acteur</categorie>
+	      	<nom>Jim Abrahams</nom>
+	      	<categorie>Réalisateur</categorie>
 	   	</artiste>
 	</artistes>
 
@@ -34,7 +34,7 @@
             <personne>Liv Tyler</personne>
          </acteurs>
 
-         <realisateur>Peter Jackson</realisateur>
+         <realisateur codartiste = "A"/>
       </film>
 
       <film>
@@ -54,7 +54,7 @@
             <personne>Daniel Stern</personne>
          </acteurs>
 
-         <realisateur>Chris Columbus</realisateur>
+         <realisateur codartiste = "B"/>
       </film>
 
       <film>
@@ -74,7 +74,7 @@
             <personne>Lloyd Bridges</personne>
          </acteurs>
 
-         <realisateur>Jim Abrahams</realisateur>
+         <realisateur codartiste = "C"/>
       </film>
    </films>
    
