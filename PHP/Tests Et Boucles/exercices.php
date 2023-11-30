@@ -96,34 +96,34 @@
     $g = 100;
     $h = 1;
     do {
-        echo "$a";
-        $a++;
+        echo "$e";
+        $e++;
     }
-    while($a <= 10);
+    while($e <= 10);
 
     echo "\n";
     
     do{
-        echo "$b";
-        $b--;
+        echo "$f";
+        $f--;
     }
-    while ($b > 6);
+    while ($f > 6);
 
     echo "\n";
 
     do{
-        echo "$c";
-        $c = $c / 10;
+        echo "$g";
+        $g = $g / 10;
     }
-    while ($c > 20);
+    while ($g > 20);
 
     echo "\n";
 
     do{
-        echo "$d";
-        $d = $d * 100;
+        echo "$h";
+        $h = $h * 100;
     }
-    while($d < 1000);
+    while($h < 1000);
     echo "\n";
 ?>
 
@@ -137,4 +137,33 @@
         echo "3 x ". $i . " = " . $i * 3 . "\n";
     }
     echo "\n";
+?>
+
+5)
+<?php
+    $jours = array("Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche");
+    foreach($jours as $jour){
+        echo $jour . "\n";
+    }
+
+    echo "\n";
+
+    $planetes = array("Mercure", "Vénus", "Terre", "Mars", "Jupiter", "Saturne", "Uranus", "Neptune");
+    foreach($planetes as $planete){
+        echo $planete . "\n";
+    }
+
+    echo "\n";
+
+    $mois = array("Janvier"=>"31","Février"=>"28","Mars"=>"31","Avril"=>"30","Mai"=>"31","Juin"=>"30","Juillet"=>"31","Août"=>"31","Septembre"=>"30","Octobre"=>"31","Novembre"=>"30","Décembre"=>"31");
+    foreach($mois as $nameMois => $nbjours){
+        echo "Le mois de " . $nameMois . " Contient " . $nbjours . " jours\n";
+    }
+    
+    echo "\n";
+
+    $planetesWithDistances = array("Mercure"=>"57 909 050", "Vénus"=>"108 208 475", "Terre"=>"149 598 023", "Mars"=>"227 939 200", "Jupiter"=>"778 340 821", "Saturne"=>"1 426 666 422", "Uranus"=>"2 870 658 186", "Neptune"=>"4 498 396 441");
+    foreach($planetesWithDistances as $namePlanete => $distance){
+        echo $namePlanete . " est à " . $distance . " du soleil\n";
+    }
 ?>
