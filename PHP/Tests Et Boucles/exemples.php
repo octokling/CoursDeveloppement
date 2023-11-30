@@ -54,16 +54,16 @@
         echo "$y est inférieur à 5\n";
         $y++;
     }
-    while($y <= 5); #Tant que y est inférieur ou égale à 5 (5 compris dans la boucle)
+    while($y <= 5); #Tant que y est inférieur ou égale à 5 
     #Fait d'abords une fois, et si la condition de while est à true, alors refait
 ?>
 
 <?php
-    #for(déclaration d'une variable; comparaison pour la boucle; à faire à chaque fin de boucle) (5 compris dans la boucle)
+    #for(déclaration d'une variable; comparaison pour la boucle; à faire à chaque fin de boucle)
     for($i = 1; $i <= 10; $i++){
         echo "Itération N°$i\n";
     }
-    #
+    
 ?>
 
 <?php
