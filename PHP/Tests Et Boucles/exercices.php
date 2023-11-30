@@ -164,6 +164,6 @@
 
     $planetesWithDistances = array("Mercure"=>"57 909 050", "Vénus"=>"108 208 475", "Terre"=>"149 598 023", "Mars"=>"227 939 200", "Jupiter"=>"778 340 821", "Saturne"=>"1 426 666 422", "Uranus"=>"2 870 658 186", "Neptune"=>"4 498 396 441");
     foreach($planetesWithDistances as $namePlanete => $distance){
-        echo $namePlanete . " est à " . $distance . " du soleil\n";
+        echo $namePlanete . " est à " . $distance . " km du soleil\n";
     }
 ?>
