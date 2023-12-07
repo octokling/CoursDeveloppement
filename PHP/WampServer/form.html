@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td>Clé</td>
+            <td>Valeur</td>
+        </tr>
+            <td>Oui</td>
+            <td>Et toi ?</td>
+        </tr>
+    </table>
+
+    <p>Formulaire avec get.php</p>
+    <form action="./get.php" method="get">
+        <label>Auteur : </label><input type="text" name="auteur"><br>
+        <label>Livre : </label><input type="text" name="livre"><br>
+        <label>ISBN : </label><input type="number" name="ISBN"><br>
+        <label>Editeur : </label><select name="editeur">
+            <option value="nothing">Entrer un éditeur</option>
+            <option value="nathan">Nathan</option>
+            <option value="soleil-manga">Soleil Manga</option>
+            <option value="BOOK-ON-DEMAND">Book on demand</option>
+            <option value="POCKET">Pocket</option>
+          </select>
+        <input type="submit">
+    </form>
+</body>
+</html>

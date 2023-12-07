@@ -1,17 +1,5 @@
 <?php
-    // Dans ce bonus, nous allons faire un système de gestion d'utilisateurs
-    /* La structure du tableau user 
-    users:
-        (index qui sera son ID)0:
-            firstName:
-            lastName:
-            birthday:
-            gender:
-            email:
-            phone:
 
-    */
-    
     $users = array();
     function addRandUser($users){
         $firstNames = array("Astghik", "Enola", "Alexandre", "Lounes", "Loann", "Noa", "Killian", "Logan", "Axel", "Manon", "Gabin", "Matheo", "Alexis", "Clement", "Killian", "Kevin", "Erwan");
@@ -88,7 +76,7 @@
     }
 
 
-    for($i=0;$i!=52;$i++){
+    for($i=0;$i!=18;$i++){
         $users = addRandUser($users);
     }
 
