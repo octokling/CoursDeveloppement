@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Methode POST</title>
+    </head>
+    <body>
+
+        <p>Veuillez renseigné les informations du livre</p>
+
+        <form action="ouvrage.php" method="post">
+
+            <label for="titre">Titre :</label>
+            <input id="titre" placeholder="Le titre du livre" type="text" name="Titre" value="Splatoon" required><br>
+
+            <label for="editeur">Editeur :</label>
+            <input id="editeur" placeholder="L'éditeur du livres" type="text" name="Editeur" value="Soleil Manga" required><br>
+            
+            <label for="date">Date de publication :</label>
+            <input id="date" placeholder="XXXX" type="number" min="1000" max="2024" name="Date_de_publication" value="2022" required><br>
+
+            <label for="isbn">ISBN-10 :</label>
+            <input id="isbn" placeholder="XXXXXXXXXXXX" type="number" name="ISBN-10" value="2302098358" required><br>
+            
+            <br><input type="submit">
+        </form>
+    </body>
+</html>
