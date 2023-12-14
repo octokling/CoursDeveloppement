@@ -30,8 +30,6 @@
         $tarif += 350;
     }
 
-    echo $tarif;
-
     switch($nbOfActivities){
         case 2:
             $reduc = 5;
@@ -67,6 +65,7 @@
         <style>
             body{
                 background-color: #5ABDF1;
+                font-size: 25px;
                 color: #fff;
             }
 
@@ -122,7 +121,7 @@
                     <div id='middle'>
                         Le premier bassin avec la nage à contre courant pousse à l’effort tandis que le bassin d’eau chaude de 6m sur 6m
                         invite à la détente et au bien-être. Une ambiance qui varie selon les moments de la journée, très dynamique ou
-                        relaxante. Smoothies maison et tisanes detox disponibles.
+                        relaxante. Smoothies maison et tisanes d etox disponibles.
                     </div>
                 </li><br>";
             }
