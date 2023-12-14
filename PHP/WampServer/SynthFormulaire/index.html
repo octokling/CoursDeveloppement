@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SIO Fitness</title>
+    </head>
+    <body>
+        <form method="post" action="confirm.php" enctype="multipart/form-data">
+            <fieldset style="width: 35%;">
+                <legend>Choisir les activités</legend>
+
+                <div>
+                    <input id="CIH" name="CIH" type="checkbox">
+                    <label for="CIH">Cours individuel hebdomadaire</label>
+                </div>
+                
+                <div>
+                    <input id="CC" name="CC" type="checkbox">
+                    <label for="CC">Cours Collectif</label>
+                </div>
+                
+                <div>
+                    <input id="AP" name="AP" type="checkbox">
+                    <label for="AP">Accès à la piscine</label>
+                </div>
+    
+                <div>
+                    <input id="AEMC"  name="AEMC" type="checkbox">
+                    <label for="AEMC">Accès aux équimements musculation et cardio</label>
+                </div>
+                
+            </fieldset>
+            <br>
+            <fieldset style="width: 35%;">
+                <legend>Qui êtes vous</legend>
+
+                <div>
+                    <label for="name">Votre nom</label>
+                    <input id="name" name="name" type="text" placeholder="Entrez votre nom" required>
+                </div>
+
+                <div>
+                    <label for="mail">Votre mail</label>
+                    <input id="mail" name="mail" type="text" placeholder="Entrez votre mail" required><br>
+                </div>
+                
+                <div>
+                    <div>
+                        <input name="age" type="radio" id="etudiant" value="0" checked>
+                        <label for="etudiant">Etudiant</label>
+                    </div>
+                    <div>
+                        <input name="age" type="radio" id="senior" value="1">
+                        <label for="senior">Senior</label>
+                    </div>
+                    
+                </div>
+                
+            </fieldset>
+
+            <br><input type="submit" value="Confirmer">        
+        </form>
+    </body>
+</html>
