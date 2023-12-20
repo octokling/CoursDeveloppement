@@ -1,0 +1,178 @@
+{
+  "Renault": [
+    {
+      "modele": "Clio 2",
+      "immatriculation": "AA-000-ZZ",
+      "kilometrage": 25400,
+      "date_achat": "2020-01-15",
+      "proprietaire_precedent": "Jean Dupont",
+      "prix_achat": 12000,
+      "entretiens": [
+        {"date": "2021-05-20", "type": "Révision", "cout": 150},
+        {"date": "2022-02-10", "type": "Changement de pneus", "cout": 300}
+      ],
+      "assurance": {"compagnie": "AXA", "debut": "2020-01-15", "fin": "2023-01-15"},
+      "statut": "En service",
+      "carburant": "Essence"
+    },
+    {
+      "modele": "Clio 1",
+      "immatriculation": "ZZ-000-ZZ",
+      "kilometrage": 32120,
+      "date_achat": "2019-08-10",
+      "proprietaire_precedent": "Marie Martin",
+      "prix_achat": 10500,
+      "entretiens": [
+        {"date": "2020-12-05", "type": "Vidange", "cout": 80},
+        {"date": "2022-05-15", "type": "Changement batterie", "cout": 120}
+      ],
+      "assurance": {"compagnie": "MAAF", "debut": "2019-08-10", "fin": "2022-08-10"},
+      "statut": "En réparation",
+      "carburant": "Diesel"
+    },
+    {
+      "modele": "Megane",
+      "immatriculation": "BB-111-ZZ",
+      "kilometrage": 15000,
+      "date_achat": "2021-03-25",
+      "proprietaire_precedent": "Sophie Lefevre",
+      "prix_achat": 18000,
+      "entretiens": [
+        {"date": "2021-10-10", "type": "Changement huile moteur", "cout": 90},
+        {"date": "2022-08-15", "type": "Réparation pare-chocs", "cout": 200}
+      ],
+      "assurance": {"compagnie": "Allianz", "debut": "2021-03-25", "fin": "2024-03-25"},
+      "statut": "En service",
+      "carburant": "Essence"
+    }
+    // ... autres modèles
+  ],
+  "Peugeot": [
+    {
+      "modele": "208",
+      "immatriculation": "DD-333-ZZ",
+      "kilometrage": 25000,
+      "date_achat": "2019-12-18",
+      "proprietaire_precedent": "Pierre Dubois",
+      "prix_achat": 15000,
+      "entretiens": [
+        {"date": "2021-02-28", "type": "Changement plaquettes de frein", "cout": 120},
+        {"date": "2022-06-12", "type": "Vidange boîte de vitesses", "cout": 180}
+      ],
+      "assurance": {"compagnie": "MAAF", "debut": "2019-12-18", "fin": "2022-12-18"},
+      "statut": "En service",
+      "carburant": "Essence"
+    },
+    {
+      "modele": "3008",
+      "immatriculation": "EE-444-ZZ",
+      "kilometrage": 30000,
+      "date_achat": "2020-07-05",
+      "proprietaire_precedent": "Isabelle Martin",
+      "prix_achat": 25000,
+      "entretiens": [
+        {"date": "2021-11-15", "type": "Révision annuelle", "cout": 200},
+        {"date": "2022-09-20", "type": "Changement filtre à air", "cout": 80}
+      ],
+      "assurance": {"compagnie": "AXA", "debut": "2020-07-05", "fin": "2023-07-05"},
+      "statut": "En service",
+      "carburant": "Diesel"
+    },
+    {
+      "modele": "508",
+      "immatriculation": "FF-555-ZZ",
+      "kilometrage": 20000,
+      "date_achat": "2021-02-10",
+      "proprietaire_precedent": "Michel Dupuis",
+      "prix_achat": 28000,
+      "entretiens": [
+        {"date": "2021-09-25", "type": "Changement batterie", "cout": 150},
+        {"date": "2022-04-30", "type": "Réparation carrosserie", "cout": 300}
+      ],
+      "assurance": {"compagnie": "Allianz", "debut": "2021-02-10", "fin": "2024-02-10"},
+      "statut": "Hors service",
+      "carburant": "Essence"
+    },
+    // ... autres modèles
+  ],
+  "Toyota": [
+    {
+      "modele": "Yaris",
+      "immatriculation": "GG-666-ZZ",
+      "kilometrage": 20000,
+      "date_achat": "2020-09-12",
+      "proprietaire_precedent": "Anne Moreau",
+      "prix_achat": 14000,
+      "entretiens": [
+        {"date": "2021-03-20", "type": "Vidange", "cout": 100},
+        {"date": "2022-01-10", "type": "Changement filtre à huile", "cout": 60}
+      ],
+      "assurance": {"compagnie": "AXA", "debut": "2020-09-12", "fin": "2023-09-12"},
+      "statut": "En service",
+      "carburant": "Essence"
+    },
+    {
+      "modele": "RAV4",
+      "immatriculation": "HH-777-ZZ",
+      "kilometrage": 30000,
+      "date_achat": "2019-11-28",
+      "proprietaire_precedent": "Paul Lefevre",
+      "prix_achat": 24000,
+      "entretiens": [
+        {"date": "2020-10-15", "type": "Changement plaquettes de frein", "cout": 120},
+        {"date": "2022-05-22", "type": "Révision annuelle", "cout": 180}
+      ],
+      "assurance": {"compagnie": "MAAF", "debut": "2019-11-28", "fin": "2022-11-28"},
+      "statut": "En service",
+      "carburant": "Hybride"
+    },
+    {
+      "modele": "Corolla",
+      "immatriculation": "II-888-ZZ",
+      "kilometrage": 22000,
+      "date_achat": "2020-05-08",
+      "proprietaire_precedent": "Emilie Laurent",
+      "prix_achat": 18000,
+      "entretiens": [
+        {"date": "2021-06-30", "type": "Changement batterie", "cout": 150},
+        {"date": "2022-03-12", "type": "Changement bougies d'allumage", "cout": 80}
+      ],
+      "assurance": {"compagnie": "Allianz", "debut": "2020-05-08", "fin": "2023-05-08"},
+      "statut": "En service",
+      "carburant": "Hybride"
+    },
+    // ... autres modèles
+  ],
+  "Volkswagen": [
+    {
+      "modele": "Golf",
+      "immatriculation": "JJ-999-ZZ",
+      "kilometrage": 28000,
+      "date_achat": "2019-07-20",
+      "proprietaire_precedent": "Thomas Leclerc",
+      "prix_achat": 22000,
+      "entretiens": [
+        {"date": "2020-08-10", "type": "Réparation pare-brise", "cout": 200},
+        {"date": "2022-04-05", "type": "Changement amortisseurs", "cout": 300}
+      ],
+      "assurance": {"compagnie": "AXA", "debut": "2019-07-20", "fin": "2022-07-20"},
+      "statut": "En service",
+      "carburant": "Essence"
+    },
+    {
+      "modele": "Tiguan",
+      "immatriculation": "KK-000-AA",
+      "kilometrage": 26000,
+      "date_achat": "2020-03-15",
+      "proprietaire_precedent": "Catherine Martin",
+      "prix_achat": 28000,
+      "entretiens": [
+        {"date": "2021-02-22", "type": "Vidange boîte de vitesses", "cout": 180},
+        {"date": "2022-09-18", "type": "Changement plaquettes de frein", "cout": 120}
+      ],
+      "assurance": {"compagnie": "Allianz", "debut": "2020-03-15", "fin": "2023-03-15"},
+      "statut": "En service",
+      "carburant": "Diesel"
+    }
+  ]
+}
