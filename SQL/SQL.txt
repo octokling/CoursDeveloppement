@@ -1,0 +1,64 @@
+SQL :
+
+SELECT : "afficher", selectionner
+FROM : Depuis une table
+WHERE : Depuis une données
+AS : Appele autrement
+CREATE TABLE : Création d'une table
+INSERT INTO : Ajout de données 
+UPDATE : Modifier des données
+DELETE : Suppression de données
+
+Exemple:
+
+Afficher des données : 
+SELECT (Colonnes(noms)) FROM (Table (noms)) ;(<- Obligatoire)
+SELECT nom, prenom FROM employes; = Affiche les colonnes "nom" et "prenom" depuis la table "employes"
+SELECT * FROM employes; Affiche tout depuis "employes"
+SELECT * FROM personnes WHERE age < 18; Affiche tout depuis "personnes" les données qui possède une age inférieur à 18 ans
+SELECT * FROM personnes WHERE age > 18; Affiche tout depuis "personnes" les données qui possède une age suppérieur à 64 ans
+SELECT nom_de_colonne_super_complique AS col1; (Rénomme pendant la durée de la session nom_de_colonne_super_complique à col1)
+
+Créer des tâbles :
+CREATE TABLE ma_table1 (nom VARCHAR, prenom VARCHAR, age INT); (Création d'une table ma-table1 comme colonne : nom, prenom (en chaîne de caractère) et age (en entier)
+CREATE TABLE IF NOT EXISTS table1 ("id" INT AUTO_INCREMENT PRIMARY KEY, "nom" VARCHAR(128), "prenom" VARCHAR(128))
+
+Ajout de données :
+INSERT INTO ma_table1 (nom, prenom, age) VALUES ("Mornac", "Erwan", 19); (Insertion de données dans la table ma_table1 depuis les colonnes nom, prenom, age les données Mornac, Erwan 19).
+
+Mise à jour de données:
+UPDATE ma_table1 SET nom = "test" WHERE nom = "Mornac"; (Modifie une données dans la table ma_table1 nom à "test" la données qui est égale à Mornac)
+
+Suppression de données :
+DELETE FROM ma_table1 WHERE nom = "Mornac";
+
+Conditions : 
+
+!= : Différent
+= : Egale strict
+< : Inférieur
+> : Suppérieur
+IS NULL : Colonne vide
+IS NOT NULL : Colonene contenant des données
+LIKE : Recherche par mot clé
+AND, OR 
+IF NOT EXISTS : Si cela n'existe pas, alors true
+
+Spécification :
+C -> Create
+R -> Read
+U -> Update
+D -> Delete
+
+AUTO_INCREMENT : La valeur sera renseigné automatiquement en incrémentant de 1 sur la valeur précédente.
+PRIMARY KEY : Contrainte fonctionnel, elle impose que cette colone possède une valeur unique par ligne.
+
+Différents type de données :
+INT : Nombre entier
+FLOAT : Nombre décimale
+VARCHAR(Taille de la chaine de caractère) : Une chaîne de caractères de longueur variable.
+BIT : Forme binaire
+JSON : Forme JSON
+DATE : La date
+TIME : L'heure
+DATETIME : Le jour et l'heure

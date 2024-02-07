@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test Image</title>
+    <link rel="stylesheet" href="./ressources/css/style.css">
+    <script src="./ressources/js/jeu.js"></script>
+</head>
+<body>
+    <h1>Le jeu du 421 :</h1>
+    <div class="imagesContainer">
+
+            <img src="./ressources/images/dice1.png" alt="Lancer de dés 1" class="diceImg" name="img1">
+            <input type="checkbox" name="img1" id="1" class="imgCheck">
+
+            <img src="./ressources/images/dice2.png" alt="Lancer de dés 2" class="diceImg" name="img2">
+            <input type="checkbox" name="img2" id="2" class="imgCheck">
+
+            <img src="./ressources/images/dice3.png" alt="Lancer de dés 3" class="diceImg" name="img3">
+            <input type="checkbox" name="img3" id="3" class="imgCheck">
+    </div>
+    <br>
+    <button onclick="tirerUnNombre()">Tirer un nombre</button>
+    <button onclick="lancerDice()">Lancer les dès</button>
+    <button onclick="lancerDiceChoisi()">Lancer les dès choisi</button>
+
+</body>
+</html>

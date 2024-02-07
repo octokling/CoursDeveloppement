@@ -1,0 +1,17 @@
+{
+    "Pierre": {
+        "prenom": "Pierre",
+        "email": "pierre.sonnom@pasDeVraiMail.fr",
+        "telephone": "01 02 03 04 05"
+    },
+    "Paul": {
+        "prenom": "Paul",
+        "email": "paul.sonnom@pasDeVraiMail.fr",
+        "telephone": "06 07 08 09 10"
+    },
+    "Jacques": {
+        "prenom": "Jacques",
+        "email": "jacques.sonnom@pasDeVraiMail.fr",
+        "telephone": "11 12 13 14 15"
+    }
+}

@@ -1,1 +1,2 @@
-﻿
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: symbole externe non résolu main référencé dans la fonction "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Etudes\CoursDev\CPP\DécouverteCpp\x64\Debug\DécouverteCpp.exe : fatal error LNK1120: 1 externes non résolus
